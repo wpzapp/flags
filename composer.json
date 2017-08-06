@@ -1,0 +1,37 @@
+{
+  "name": "wpzapp/flags",
+  "description": "Utility class to handle bitwise flags.",
+  "version": "1.0.0",
+  "type": "wpzapp-lib",
+  "license": "GPL-3.0",
+  "keywords": [
+    "wpzapp",
+    "wordpress",
+    "flags"
+  ],
+  "homepage": "https://wpzapp.org",
+  "authors": [
+    {
+      "name": "Felix Arntz",
+      "email": "felix-arntz@leaves-and-love.net",
+      "homepage": "https://leaves-and-love.net",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/wpzapp/flags/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "WPZAPP\\Flags\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "wpzapp/installer": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.2.*",
+    "codeclimate/php-test-reporter": "dev-master"
+  }
+}
